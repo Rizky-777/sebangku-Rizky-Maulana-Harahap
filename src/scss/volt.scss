@@ -1,0 +1,40 @@
+// =========================================================
+// * Volt React Dashboard
+// =========================================================
+// * Product Page: https://themesberg.com/product/dashboard/volt-react
+// * Copyright 2021 Themesberg
+// * License: MIT License
+// =========================================================
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800&display=swap');
+
+// Bootstrap functions & mixins (pastikan urutan ini)
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+// Volt variables override (custom SCSS)
+@import "volt/variables";
+
+// Bootstrap base styles
+@import "~bootstrap/scss/bootstrap";
+
+// Vendor SCSS (plugin, library tambahan)
+@import "volt/vendor";
+
+// Volt SCSS mixins & functions
+@import "volt/functions";
+@import "volt/mixins";
+
+// Base & utilities
+@import "volt/reboot";
+@import "volt/utilities";
+
+// Layout & grid
+@import "volt/layout";
+
+// Komponen UI
+@import "volt/components";
+
+// Custom style tambahan
+// Tulis custom CSS-mu di sini
